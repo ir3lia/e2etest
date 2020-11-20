@@ -1,7 +1,7 @@
 pipeline {
     agent { node 'R11493' }
     tools {
-        jdk 'jdk1.8.0_181'
+        jdk 'jdk1.8.0_151'
     }
     
     stages {
