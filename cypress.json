@@ -1,0 +1,13 @@
+{
+  "baseUrl": "https://idself04.rghall.com.cn",
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "pageLoadTimeout": 100000,
+  "requestTimeout": 6000,
+  "chromeWebSecurity": false,
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "results/my-test-output[hash].xml",
+    "toConsole": true
+  }
+}

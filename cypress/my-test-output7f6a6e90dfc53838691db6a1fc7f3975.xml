@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="5.484" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-11-20T06:44:06" tests="0" file="cypress/integration/examples/smpplus.spec.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="smp+登录测试" timestamp="2020-11-20T06:44:06" tests="1" failures="0" time="5.484">
+    <testcase name="smp+登录测试 Does not do much!" time="5.484" classname="Does not do much!">
+    </testcase>
+  </testsuite>
+</testsuites>
