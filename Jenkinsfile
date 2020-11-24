@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh "docker run -it -v $PWD:/mytest -w /mytest cypress/included:5.5.0"
+                sh "docker run -i -v $PWD:/mytest -w /mytest cypress/included:5.5.0"
             }
         }
         stage('Test') {
