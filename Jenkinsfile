@@ -7,12 +7,12 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'npm install'
+                println "Build"
             }
         }
         stage('Test') {
             steps {
-                sh 'npm run test'
+                println "Test"
             }
         }
         stage('Deploy') {
