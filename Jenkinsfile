@@ -1,5 +1,5 @@
 pipeline {
-    agent { node '172.17.8.183_RF' }
+    agent { node '172.17.8.243' }
     tools {
         jdk 'jdk1.8.0_151'
     }
