@@ -7,7 +7,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh "cd /jenkins/workspace/UI_Cyress_pipline|docker run -i -v $PWD:/mytest -w /mytest cypress/included:5.5.0"
+                sh "cd /jenkins/workspace/UI_Cyress_pipline"
+                sh "docker run -i -v $PWD:/mytest -w /mytest cypress/included:5.5.0"
             }
         }
         stage('Test') {
